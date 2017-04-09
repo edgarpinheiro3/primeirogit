@@ -41,3 +41,7 @@ git reset --soft passahash //mata o commit e joga o arquivo para o staged para s
 git reset --mixed passahash //mata o commit e joga o arquivo para modified (pode fazer um checkout, editar, fazer oq quiser)
 
 git hard --hard passahash //apaga todos os commits deixando apenas o que passahash que passou.
+
+git remote add origin https://github.com/edgarpinheiro3/primeirogit.git
+
+git push -u origin master
