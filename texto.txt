@@ -1,0 +1,43 @@
+ls
+
+ls -la
+
+cd ..
+
+cd nomedoarquivo ou pasta
+
+git status
+
+git add .
+
+git commit -m "Comentario"
+
+git config --global user.name
+
+git config --global user.email
+
+git log
+
+git log author="edgarpinheiro3"
+
+git log --decorate
+
+git log --graph
+
+git diff //sempre olhar antes de dar commit
+
+git diff --name-only //ver so o nomes dos arquivos que foram editados
+
+git checkout texto.txt
+
+git show
+
+git reset HEAD texto.txt // eu quero remover da fila do staged
+
+git commit -am"adiciona todos os arquivos comitados mais o comentário"
+
+git reset --soft passahash //mata o commit e joga o arquivo para o staged para ser comitado novamente ou não (se passa a penultima hash ele apaga o ultimo)
+ 
+git reset --mixed passahash //mata o commit e joga o arquivo para modified (pode fazer um checkout, editar, fazer oq quiser)
+
+git hard --hard passahash //apaga todos os commits deixando apenas o que passahash que passou.
