@@ -1,4 +1,4 @@
-ls
+﻿ls
 
 ls -la
 
@@ -45,3 +45,5 @@ git hard --hard passahash //apaga todos os commits deixando apenas o que passaha
 git remote add origin https://github.com/edgarpinheiro3/primeirogit.git
 
 git push -u origin master
+
+git clone git@github.com:edgarpinheiro3/primeirogit.git primeirogit-clone
