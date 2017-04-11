@@ -51,3 +51,5 @@ git clone git@github.com:edgarpinheiro3/primeirogit.git primeirogit-clone
 git ckeckout -b primeirobranch //cria o branch é já entra no branch
 
 git checkout nomebranchqueeuqueroir //sair e entrar no que quero
+
+git branch -D nomedobranchquequeroapagar //apaga o branch que deseja
