@@ -62,3 +62,11 @@ git stash //grava o arquivo temporariamente por acaso aconteca que eu precise cr
 
 git stash apply // aplica as mudanças que estava guardado no branch que eu esteja
 
+git stash list
+
+git stash clear// limpa tudo que estiver stash
+
+git config --global alias.s status //abreviar comandos do GIT
+
+git tag -a 1.0.0 -m "Readme Finalizado" //para criar versões 1.0.0 seria a versão
+
