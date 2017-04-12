@@ -53,3 +53,12 @@ git ckeckout -b primeirobranch //cria o branch é já entra no branch
 git checkout nomebranchqueeuqueroir //sair e entrar no que quero
 
 git branch -D nomedobranchquequeroapagar //apaga o branch que deseja
+
+git merge test
+
+git rebase rebase-branch
+
+git stash //grava o arquivo temporariamente por acaso aconteca que eu precise criar outro branch
+
+git stash apply // aplica as mudanças que estava guardado no branch que eu esteja
+
