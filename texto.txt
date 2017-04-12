@@ -70,3 +70,5 @@ git config --global alias.s status //abreviar comandos do GIT
 
 git tag -a 1.0.0 -m "Readme Finalizado" //para criar versões 1.0.0 seria a versão
 
+git push origin master --tags //sobe as tags para mim
+
